@@ -1,0 +1,57 @@
+PODS:
+  - TFY_AutoLayout (2.6.0):
+    - TFY_AutoLayout/IOS_Layout (= 2.6.0)
+    - TFY_AutoLayout/MAC_Layout (= 2.6.0)
+    - TFY_AutoLayout/Util (= 2.6.0)
+  - TFY_AutoLayout/IOS_Layout (2.6.0):
+    - TFY_AutoLayout/Util
+  - TFY_AutoLayout/MAC_Layout (2.6.0):
+    - TFY_AutoLayout/Util
+  - TFY_AutoLayout/Util (2.6.0)
+  - TFY_LayoutCategoryKit (1.3.6):
+    - TFY_LayoutCategoryKit/TFY_Categories (= 1.3.6)
+    - TFY_LayoutCategoryKit/TFY_Chain (= 1.3.6)
+    - TFY_LayoutCategoryKit/TFY_Tools (= 1.3.6)
+  - TFY_LayoutCategoryKit/TFY_Categories (1.3.6):
+    - TFY_LayoutCategoryKit/TFY_Categories/TFY_Foundation (= 1.3.6)
+    - TFY_LayoutCategoryKit/TFY_Categories/TFY_UI (= 1.3.6)
+    - TFY_LayoutCategoryKit/TFY_Tools
+  - TFY_LayoutCategoryKit/TFY_Categories/TFY_Foundation (1.3.6):
+    - TFY_LayoutCategoryKit/TFY_Tools
+  - TFY_LayoutCategoryKit/TFY_Categories/TFY_UI (1.3.6):
+    - TFY_LayoutCategoryKit/TFY_Tools
+  - TFY_LayoutCategoryKit/TFY_Chain (1.3.6):
+    - TFY_LayoutCategoryKit/TFY_Chain/TFY_CALayer (= 1.3.6)
+    - TFY_LayoutCategoryKit/TFY_Chain/TFY_ChainBase (= 1.3.6)
+    - TFY_LayoutCategoryKit/TFY_Chain/TFY_UIGesture (= 1.3.6)
+    - TFY_LayoutCategoryKit/TFY_Chain/TFY_UIView (= 1.3.6)
+  - TFY_LayoutCategoryKit/TFY_Chain/TFY_CALayer (1.3.6):
+    - TFY_LayoutCategoryKit/TFY_Chain/TFY_ChainBase
+  - TFY_LayoutCategoryKit/TFY_Chain/TFY_ChainBase (1.3.6)
+  - TFY_LayoutCategoryKit/TFY_Chain/TFY_UIGesture (1.3.6):
+    - TFY_LayoutCategoryKit/TFY_Categories/TFY_UI
+    - TFY_LayoutCategoryKit/TFY_Chain/TFY_ChainBase
+  - TFY_LayoutCategoryKit/TFY_Chain/TFY_UIView (1.3.6):
+    - TFY_LayoutCategoryKit/TFY_Categories/TFY_Foundation
+    - TFY_LayoutCategoryKit/TFY_Categories/TFY_UI
+    - TFY_LayoutCategoryKit/TFY_Chain/TFY_CALayer
+    - TFY_LayoutCategoryKit/TFY_Chain/TFY_ChainBase
+    - TFY_LayoutCategoryKit/TFY_Chain/TFY_UIGesture
+  - TFY_LayoutCategoryKit/TFY_Tools (1.3.6)
+
+DEPENDENCIES:
+  - TFY_AutoLayout
+  - TFY_LayoutCategoryKit
+
+SPEC REPOS:
+  trunk:
+    - TFY_AutoLayout
+    - TFY_LayoutCategoryKit
+
+SPEC CHECKSUMS:
+  TFY_AutoLayout: ef69f4a2b3892931a80dc80421ecaa758e96a558
+  TFY_LayoutCategoryKit: f289a4770571e16ecb5f8d799f16bc2f450e01ba
+
+PODFILE CHECKSUM: 6f4ff8c3a1c9e79d960695b878a79fed039bcde5
+
+COCOAPODS: 1.10.0.beta.2

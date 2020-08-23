@@ -19,6 +19,10 @@
 		36D4429F24F207D60086B75B /* TFY_MessageM.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4429C24F207D60086B75B /* TFY_MessageM.m */; };
 		36D442A024F207D60086B75B /* NSObject+TFY_MessageE.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4429D24F207D60086B75B /* NSObject+TFY_MessageE.m */; };
 		36D442A324F208EA0086B75B /* TFY_RouterM.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D442A224F208EA0086B75B /* TFY_RouterM.m */; };
+		36D442A624F275030086B75B /* TFY_RouterMHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D442A524F275030086B75B /* TFY_RouterMHandler.m */; };
+		62F9BCBE6AA1A2EE76490B76 /* Pods_TFY_MessageMKit_TFY_MessageMKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E8127039193EF54F556C475 /* Pods_TFY_MessageMKit_TFY_MessageMKitUITests.framework */; };
+		861A435826540CC59F9EAA5B /* Pods_TFY_MessageMKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752718E5D74EC4803454B4CB /* Pods_TFY_MessageMKitTests.framework */; };
+		FEA6EED7914977FAB904EF24 /* Pods_TFY_MessageMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E34D93E52F090B5912CB90 /* Pods_TFY_MessageMKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E8127039193EF54F556C475 /* Pods_TFY_MessageMKit_TFY_MessageMKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFY_MessageMKit_TFY_MessageMKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D4423724F1FE140086B75B /* TFY_MessageMKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFY_MessageMKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D4424824F1FE150086B75B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36D4424B24F1FE150086B75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,6 +71,17 @@
 		36D4429D24F207D60086B75B /* NSObject+TFY_MessageE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TFY_MessageE.m"; sourceTree = "<group>"; };
 		36D442A124F208EA0086B75B /* TFY_RouterM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFY_RouterM.h; sourceTree = "<group>"; };
 		36D442A224F208EA0086B75B /* TFY_RouterM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFY_RouterM.m; sourceTree = "<group>"; };
+		36D442A424F275030086B75B /* TFY_RouterMHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFY_RouterMHandler.h; sourceTree = "<group>"; };
+		36D442A524F275030086B75B /* TFY_RouterMHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFY_RouterMHandler.m; sourceTree = "<group>"; };
+		36D442A724F27EBE0086B75B /* TFY_RouterMKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFY_RouterMKit.h; sourceTree = "<group>"; };
+		37EC6C12C10D3F469164C0E7 /* Pods-TFY_MessageMKit-TFY_MessageMKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFY_MessageMKit-TFY_MessageMKitUITests.release.xcconfig"; path = "Target Support Files/Pods-TFY_MessageMKit-TFY_MessageMKitUITests/Pods-TFY_MessageMKit-TFY_MessageMKitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		69020E7AE98EF9049F83ECE1 /* Pods-TFY_MessageMKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFY_MessageMKit.release.xcconfig"; path = "Target Support Files/Pods-TFY_MessageMKit/Pods-TFY_MessageMKit.release.xcconfig"; sourceTree = "<group>"; };
+		73E34D93E52F090B5912CB90 /* Pods_TFY_MessageMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFY_MessageMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		752718E5D74EC4803454B4CB /* Pods_TFY_MessageMKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFY_MessageMKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		833E007D085DB902711216C0 /* Pods-TFY_MessageMKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFY_MessageMKitTests.release.xcconfig"; path = "Target Support Files/Pods-TFY_MessageMKitTests/Pods-TFY_MessageMKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		A65C2DBF74EE6B2BADF2D131 /* Pods-TFY_MessageMKit-TFY_MessageMKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFY_MessageMKit-TFY_MessageMKitUITests.debug.xcconfig"; path = "Target Support Files/Pods-TFY_MessageMKit-TFY_MessageMKitUITests/Pods-TFY_MessageMKit-TFY_MessageMKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B13E23F6ED4702F476CF986A /* Pods-TFY_MessageMKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFY_MessageMKit.debug.xcconfig"; path = "Target Support Files/Pods-TFY_MessageMKit/Pods-TFY_MessageMKit.debug.xcconfig"; sourceTree = "<group>"; };
+		B4F1782EA1C1FDEC1317E513 /* Pods-TFY_MessageMKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFY_MessageMKitTests.debug.xcconfig"; path = "Target Support Files/Pods-TFY_MessageMKitTests/Pods-TFY_MessageMKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA6EED7914977FAB904EF24 /* Pods_TFY_MessageMKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				861A435826540CC59F9EAA5B /* Pods_TFY_MessageMKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62F9BCBE6AA1A2EE76490B76 /* Pods_TFY_MessageMKit_TFY_MessageMKitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +119,8 @@
 				36D4425724F1FE150086B75B /* TFY_MessageMKitTests */,
 				36D4426224F1FE150086B75B /* TFY_MessageMKitUITests */,
 				36D4423824F1FE140086B75B /* Products */,
+				C0C35B23855FF7772CA4518C /* Pods */,
+				97EA547578D584F3A74AC429 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -200,10 +221,36 @@
 		36D4429E24F207D60086B75B /* TFY_RouterMKit */ = {
 			isa = PBXGroup;
 			children = (
+				36D442A724F27EBE0086B75B /* TFY_RouterMKit.h */,
 				36D442A124F208EA0086B75B /* TFY_RouterM.h */,
 				36D442A224F208EA0086B75B /* TFY_RouterM.m */,
+				36D442A424F275030086B75B /* TFY_RouterMHandler.h */,
+				36D442A524F275030086B75B /* TFY_RouterMHandler.m */,
 			);
 			path = TFY_RouterMKit;
+			sourceTree = "<group>";
+		};
+		97EA547578D584F3A74AC429 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73E34D93E52F090B5912CB90 /* Pods_TFY_MessageMKit.framework */,
+				2E8127039193EF54F556C475 /* Pods_TFY_MessageMKit_TFY_MessageMKitUITests.framework */,
+				752718E5D74EC4803454B4CB /* Pods_TFY_MessageMKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0C35B23855FF7772CA4518C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B13E23F6ED4702F476CF986A /* Pods-TFY_MessageMKit.debug.xcconfig */,
+				69020E7AE98EF9049F83ECE1 /* Pods-TFY_MessageMKit.release.xcconfig */,
+				A65C2DBF74EE6B2BADF2D131 /* Pods-TFY_MessageMKit-TFY_MessageMKitUITests.debug.xcconfig */,
+				37EC6C12C10D3F469164C0E7 /* Pods-TFY_MessageMKit-TFY_MessageMKitUITests.release.xcconfig */,
+				B4F1782EA1C1FDEC1317E513 /* Pods-TFY_MessageMKitTests.debug.xcconfig */,
+				833E007D085DB902711216C0 /* Pods-TFY_MessageMKitTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36D4426824F1FE150086B75B /* Build configuration list for PBXNativeTarget "TFY_MessageMKit" */;
 			buildPhases = (
+				6323130B383749372FA6FCB5 /* [CP] Check Pods Manifest.lock */,
 				36D4423324F1FE140086B75B /* Sources */,
 				36D4423424F1FE140086B75B /* Frameworks */,
 				36D4423524F1FE140086B75B /* Resources */,
+				A4B0E0D7B6B093DD6C27189B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,6 +279,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36D4426B24F1FE150086B75B /* Build configuration list for PBXNativeTarget "TFY_MessageMKitTests" */;
 			buildPhases = (
+				A732FFFDA4875D632E4A9287 /* [CP] Check Pods Manifest.lock */,
 				36D4425024F1FE150086B75B /* Sources */,
 				36D4425124F1FE150086B75B /* Frameworks */,
 				36D4425224F1FE150086B75B /* Resources */,
@@ -248,9 +298,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36D4426E24F1FE150086B75B /* Build configuration list for PBXNativeTarget "TFY_MessageMKitUITests" */;
 			buildPhases = (
+				B2AE228583092134B8BB7B4D /* [CP] Check Pods Manifest.lock */,
 				36D4425B24F1FE150086B75B /* Sources */,
 				36D4425C24F1FE150086B75B /* Frameworks */,
 				36D4425D24F1FE150086B75B /* Resources */,
+				D79285FA7BB7DC2EC6B690FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -331,6 +383,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6323130B383749372FA6FCB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TFY_MessageMKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4B0E0D7B6B093DD6C27189B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TFY_MessageMKit/Pods-TFY_MessageMKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TFY_MessageMKit/Pods-TFY_MessageMKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TFY_MessageMKit/Pods-TFY_MessageMKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A732FFFDA4875D632E4A9287 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TFY_MessageMKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2AE228583092134B8BB7B4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TFY_MessageMKit-TFY_MessageMKitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D79285FA7BB7DC2EC6B690FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TFY_MessageMKit-TFY_MessageMKitUITests/Pods-TFY_MessageMKit-TFY_MessageMKitUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TFY_MessageMKit-TFY_MessageMKitUITests/Pods-TFY_MessageMKit-TFY_MessageMKitUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TFY_MessageMKit-TFY_MessageMKitUITests/Pods-TFY_MessageMKit-TFY_MessageMKitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		36D4423324F1FE140086B75B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -343,6 +498,7 @@
 				36D4427B24F1FEF60086B75B /* ContentView.swift in Sources */,
 				36D4427C24F1FEF60086B75B /* SceneDelegate.m in Sources */,
 				36D4427D24F1FEF60086B75B /* AppDelegate.m in Sources */,
+				36D442A624F275030086B75B /* TFY_RouterMHandler.m in Sources */,
 				36D4429F24F207D60086B75B /* TFY_MessageM.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,6 +660,7 @@
 		};
 		36D4426924F1FE150086B75B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B13E23F6ED4702F476CF986A /* Pods-TFY_MessageMKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -528,6 +685,7 @@
 		};
 		36D4426A24F1FE150086B75B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69020E7AE98EF9049F83ECE1 /* Pods-TFY_MessageMKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -552,6 +710,7 @@
 		};
 		36D4426C24F1FE150086B75B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4F1782EA1C1FDEC1317E513 /* Pods-TFY_MessageMKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -573,6 +732,7 @@
 		};
 		36D4426D24F1FE150086B75B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 833E007D085DB902711216C0 /* Pods-TFY_MessageMKitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -594,6 +754,7 @@
 		};
 		36D4426F24F1FE150086B75B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65C2DBF74EE6B2BADF2D131 /* Pods-TFY_MessageMKit-TFY_MessageMKitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -613,6 +774,7 @@
 		};
 		36D4427024F1FE150086B75B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37EC6C12C10D3F469164C0E7 /* Pods-TFY_MessageMKit-TFY_MessageMKitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -11,7 +11,7 @@
 //消息发送机制
 #import "TFY_MessageMKit.h"
 //路由
-#import "TFY_RouterM.h"
+#import "TFY_RouterMKit.h"
 
 
 #endif /* TFY_RouterMessageKit_h */

@@ -8,7 +8,8 @@
 #ifndef TFY_PrefixHeader_pch
 #define TFY_PrefixHeader_pch
 
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "TFY_RouterMessageKit.h"
+#import <TFY_LayoutCategoryHeader.h>
+#import <TFY_AutoLayout.h>
 
 #endif /* TFY_PrefixHeader_pch */
