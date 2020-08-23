@@ -3,20 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36D4423C24F1FE140086B75B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4423B24F1FE140086B75B /* AppDelegate.m */; };
-		36D4423F24F1FE140086B75B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4423E24F1FE140086B75B /* SceneDelegate.m */; };
-		36D4424224F1FE140086B75B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4424124F1FE140086B75B /* ViewController.m */; };
-		36D4424524F1FE140086B75B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D4424324F1FE140086B75B /* Main.storyboard */; };
-		36D4424724F1FE140086B75B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4424624F1FE140086B75B /* ContentView.swift */; };
 		36D4424924F1FE150086B75B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D4424824F1FE150086B75B /* Assets.xcassets */; };
 		36D4424C24F1FE150086B75B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D4424A24F1FE150086B75B /* LaunchScreen.storyboard */; };
 		36D4424F24F1FE150086B75B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4424E24F1FE150086B75B /* main.m */; };
 		36D4425924F1FE150086B75B /* TFY_MessageMKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4425824F1FE150086B75B /* TFY_MessageMKitTests.m */; };
 		36D4426424F1FE150086B75B /* TFY_MessageMKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4426324F1FE150086B75B /* TFY_MessageMKitUITests.m */; };
+		36D4427A24F1FEF60086B75B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4427224F1FEF60086B75B /* ViewController.m */; };
+		36D4427B24F1FEF60086B75B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4427324F1FEF60086B75B /* ContentView.swift */; };
+		36D4427C24F1FEF60086B75B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4427724F1FEF60086B75B /* SceneDelegate.m */; };
+		36D4427D24F1FEF60086B75B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4427824F1FEF60086B75B /* AppDelegate.m */; };
+		36D4429F24F207D60086B75B /* TFY_MessageM.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4429C24F207D60086B75B /* TFY_MessageM.m */; };
+		36D442A024F207D60086B75B /* NSObject+TFY_MessageE.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D4429D24F207D60086B75B /* NSObject+TFY_MessageE.m */; };
+		36D442A324F208EA0086B75B /* TFY_RouterM.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D442A224F208EA0086B75B /* TFY_RouterM.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,14 +40,6 @@
 
 /* Begin PBXFileReference section */
 		36D4423724F1FE140086B75B /* TFY_MessageMKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFY_MessageMKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		36D4423A24F1FE140086B75B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		36D4423B24F1FE140086B75B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		36D4423D24F1FE140086B75B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		36D4423E24F1FE140086B75B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		36D4424024F1FE140086B75B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		36D4424124F1FE140086B75B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		36D4424424F1FE140086B75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		36D4424624F1FE140086B75B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		36D4424824F1FE150086B75B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36D4424B24F1FE150086B75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36D4424D24F1FE150086B75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +50,22 @@
 		36D4425F24F1FE150086B75B /* TFY_MessageMKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFY_MessageMKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D4426324F1FE150086B75B /* TFY_MessageMKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFY_MessageMKitUITests.m; sourceTree = "<group>"; };
 		36D4426524F1FE150086B75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D4427224F1FEF60086B75B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36D4427324F1FEF60086B75B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		36D4427424F1FEF60086B75B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36D4427624F1FEF60086B75B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36D4427724F1FEF60086B75B /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		36D4427824F1FEF60086B75B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36D4427924F1FEF60086B75B /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		36D4428024F1FFB60086B75B /* TFY_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFY_PrefixHeader.pch; sourceTree = "<group>"; };
+		36D4429724F207D60086B75B /* TFY_RouterMessageKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFY_RouterMessageKit.h; sourceTree = "<group>"; };
+		36D4429924F207D60086B75B /* TFY_MessageM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFY_MessageM.h; sourceTree = "<group>"; };
+		36D4429A24F207D60086B75B /* TFY_MessageMKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFY_MessageMKit.h; sourceTree = "<group>"; };
+		36D4429B24F207D60086B75B /* NSObject+TFY_MessageE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TFY_MessageE.h"; sourceTree = "<group>"; };
+		36D4429C24F207D60086B75B /* TFY_MessageM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFY_MessageM.m; sourceTree = "<group>"; };
+		36D4429D24F207D60086B75B /* NSObject+TFY_MessageE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TFY_MessageE.m"; sourceTree = "<group>"; };
+		36D442A124F208EA0086B75B /* TFY_RouterM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFY_RouterM.h; sourceTree = "<group>"; };
+		36D442A224F208EA0086B75B /* TFY_RouterM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFY_RouterM.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,14 +116,10 @@
 		36D4423924F1FE140086B75B /* TFY_MessageMKit */ = {
 			isa = PBXGroup;
 			children = (
-				36D4423A24F1FE140086B75B /* AppDelegate.h */,
-				36D4423B24F1FE140086B75B /* AppDelegate.m */,
-				36D4423D24F1FE140086B75B /* SceneDelegate.h */,
-				36D4423E24F1FE140086B75B /* SceneDelegate.m */,
-				36D4424024F1FE140086B75B /* ViewController.h */,
-				36D4424124F1FE140086B75B /* ViewController.m */,
-				36D4424324F1FE140086B75B /* Main.storyboard */,
-				36D4424624F1FE140086B75B /* ContentView.swift */,
+				36D4429624F207D60086B75B /* TFY_RouterMessageKit */,
+				36D4427F24F1FF8E0086B75B /* TFY_PCH */,
+				36D4427524F1FEF60086B75B /* TFY_AppDelegate */,
+				36D4427124F1FEF60086B75B /* TFY_Class */,
 				36D4424824F1FE150086B75B /* Assets.xcassets */,
 				36D4424A24F1FE150086B75B /* LaunchScreen.storyboard */,
 				36D4424D24F1FE150086B75B /* Info.plist */,
@@ -138,6 +144,66 @@
 				36D4426524F1FE150086B75B /* Info.plist */,
 			);
 			path = TFY_MessageMKitUITests;
+			sourceTree = "<group>";
+		};
+		36D4427124F1FEF60086B75B /* TFY_Class */ = {
+			isa = PBXGroup;
+			children = (
+				36D4427424F1FEF60086B75B /* ViewController.h */,
+				36D4427224F1FEF60086B75B /* ViewController.m */,
+				36D4427324F1FEF60086B75B /* ContentView.swift */,
+			);
+			path = TFY_Class;
+			sourceTree = "<group>";
+		};
+		36D4427524F1FEF60086B75B /* TFY_AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				36D4427624F1FEF60086B75B /* AppDelegate.h */,
+				36D4427824F1FEF60086B75B /* AppDelegate.m */,
+				36D4427924F1FEF60086B75B /* SceneDelegate.h */,
+				36D4427724F1FEF60086B75B /* SceneDelegate.m */,
+			);
+			path = TFY_AppDelegate;
+			sourceTree = "<group>";
+		};
+		36D4427F24F1FF8E0086B75B /* TFY_PCH */ = {
+			isa = PBXGroup;
+			children = (
+				36D4428024F1FFB60086B75B /* TFY_PrefixHeader.pch */,
+			);
+			path = TFY_PCH;
+			sourceTree = "<group>";
+		};
+		36D4429624F207D60086B75B /* TFY_RouterMessageKit */ = {
+			isa = PBXGroup;
+			children = (
+				36D4429724F207D60086B75B /* TFY_RouterMessageKit.h */,
+				36D4429824F207D60086B75B /* TFY_MessageMKit */,
+				36D4429E24F207D60086B75B /* TFY_RouterMKit */,
+			);
+			path = TFY_RouterMessageKit;
+			sourceTree = "<group>";
+		};
+		36D4429824F207D60086B75B /* TFY_MessageMKit */ = {
+			isa = PBXGroup;
+			children = (
+				36D4429A24F207D60086B75B /* TFY_MessageMKit.h */,
+				36D4429924F207D60086B75B /* TFY_MessageM.h */,
+				36D4429C24F207D60086B75B /* TFY_MessageM.m */,
+				36D4429B24F207D60086B75B /* NSObject+TFY_MessageE.h */,
+				36D4429D24F207D60086B75B /* NSObject+TFY_MessageE.m */,
+			);
+			path = TFY_MessageMKit;
+			sourceTree = "<group>";
+		};
+		36D4429E24F207D60086B75B /* TFY_RouterMKit */ = {
+			isa = PBXGroup;
+			children = (
+				36D442A124F208EA0086B75B /* TFY_RouterM.h */,
+				36D442A224F208EA0086B75B /* TFY_RouterM.m */,
+			);
+			path = TFY_RouterMKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +268,7 @@
 		36D4422F24F1FE140086B75B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TFY_;
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
@@ -219,7 +286,7 @@
 				};
 			};
 			buildConfigurationList = 36D4423224F1FE140086B75B /* Build configuration list for PBXProject "TFY_MessageMKit" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -245,7 +312,6 @@
 			files = (
 				36D4424C24F1FE150086B75B /* LaunchScreen.storyboard in Resources */,
 				36D4424924F1FE150086B75B /* Assets.xcassets in Resources */,
-				36D4424524F1FE140086B75B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +336,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36D442A324F208EA0086B75B /* TFY_RouterM.m in Sources */,
+				36D4427A24F1FEF60086B75B /* ViewController.m in Sources */,
+				36D442A024F207D60086B75B /* NSObject+TFY_MessageE.m in Sources */,
 				36D4424F24F1FE150086B75B /* main.m in Sources */,
-				36D4424224F1FE140086B75B /* ViewController.m in Sources */,
-				36D4423C24F1FE140086B75B /* AppDelegate.m in Sources */,
-				36D4424724F1FE140086B75B /* ContentView.swift in Sources */,
-				36D4423F24F1FE140086B75B /* SceneDelegate.m in Sources */,
+				36D4427B24F1FEF60086B75B /* ContentView.swift in Sources */,
+				36D4427C24F1FEF60086B75B /* SceneDelegate.m in Sources */,
+				36D4427D24F1FEF60086B75B /* AppDelegate.m in Sources */,
+				36D4429F24F207D60086B75B /* TFY_MessageM.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,14 +379,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		36D4424324F1FE140086B75B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				36D4424424F1FE140086B75B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		36D4424A24F1FE150086B75B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,14 +508,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = QH95759TSS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TFY_MessageMKit/TFY_PCH/TFY_PrefixHeader.pch;
 				INFOPLIST_FILE = TFY_MessageMKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.message.TFY-MessageMKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -465,14 +532,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = QH95759TSS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TFY_MessageMKit/TFY_PCH/TFY_PrefixHeader.pch;
 				INFOPLIST_FILE = TFY_MessageMKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.message.TFY-MessageMKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
